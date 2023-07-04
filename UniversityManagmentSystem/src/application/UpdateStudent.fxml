@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateStudentController">
+   <children>
+      <TextField fx:id="studentNameField" layoutX="80.0" layoutY="61.0" prefHeight="35.0" prefWidth="217.0" />
+      <TextField fx:id="departmentField" layoutX="80.0" layoutY="142.0" prefHeight="35.0" prefWidth="217.0" />
+      <TextField fx:id="studentNumberField" layoutX="80.0" layoutY="228.0" prefHeight="35.0" prefWidth="217.0" />
+      <TextField fx:id="gpaField" layoutX="80.0" layoutY="294.0" prefHeight="35.0" prefWidth="217.0" />
+      <Button fx:id="updateButton" layoutX="364.0" layoutY="236.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="140.0" text="UPDATE" />
+      <Label layoutX="80.0" layoutY="22.0" prefHeight="28.0" prefWidth="208.0" text="Student Name">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="104.0" prefHeight="28.0" prefWidth="208.0" text="Department">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="186.0" prefHeight="28.0" prefWidth="208.0" text="Student Number" textFill="#d05050">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="265.0" prefHeight="28.0" prefWidth="208.0" text="GPA">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentSurnameField" layoutX="332.0" layoutY="61.0" prefHeight="35.0" prefWidth="217.0" />
+      <Label layoutX="337.0" layoutY="22.0" prefHeight="28.0" prefWidth="208.0" text="Student Surname">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="104.0" prefHeight="28.0" prefWidth="208.0" text="Degree">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="degreeField" layoutX="332.0" layoutY="142.0" prefHeight="35.0" prefWidth="217.0" />
+      <Label layoutX="189.0" layoutY="355.0" text="Student Number Must Be True" textFill="#f23232">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

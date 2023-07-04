@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ListTeacherController">
+   <children>
+      <TableView fx:id="teacherTable" layoutX="105.0" layoutY="33.0" prefHeight="335.0" prefWidth="390.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" editable="false" prefWidth="130.0" sortable="false" text="NAME" />
+            <TableColumn fx:id="surnameColumn" editable="false" prefWidth="130.0" sortable="false" text="SURNAME" />
+          <TableColumn fx:id="departmentColumn" editable="false" prefWidth="130.0" sortable="false" text="DEPARTMENT" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

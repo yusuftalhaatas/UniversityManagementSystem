@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ListStudentController">
+   <children>
+      <TableView fx:id="studentTable" prefHeight="400.0" prefWidth="452.0">
+        <columns>
+          <TableColumn fx:id="stdNumColumn" prefWidth="75.0" text="StdNum" />
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="surnameColumn" prefWidth="75.0" text="Surname" />
+            <TableColumn fx:id="departmentColumn" prefWidth="75.0" text="Department" />
+            <TableColumn fx:id="degreeColumn" prefWidth="75.0" text="Degree" />
+            <TableColumn fx:id="gpaColumn" prefWidth="75.0" text="GPA" />
+        </columns>
+      </TableView>
+      <TextField fx:id="searchField" layoutX="465.0" layoutY="58.0" prefHeight="24.0" prefWidth="165.0" />
+      <Label layoutX="470.0" layoutY="23.0" text="Enter StdNumber For Search" textFill="#eb4343" />
+      <Button fx:id="searchButton" layoutX="493.0" layoutY="96.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="109.0" text="Search" />
+      <Button fx:id="sortButton" layoutX="536.0" layoutY="323.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="89.0" text="Sort Table" />
+      <Label fx:id="avgLabel" layoutX="465.0" layoutY="287.0" prefHeight="28.0" prefWidth="109.0" text="Avg:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="465.0" layoutY="144.0" prefHeight="23.0" prefWidth="180.0" text="Name:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="surnameLabel" layoutX="465.0" layoutY="167.0" prefHeight="23.0" prefWidth="180.0" text="Surname:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="departmentLabel" layoutX="465.0" layoutY="189.0" prefHeight="23.0" prefWidth="180.0" text="Department:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="degreeLabel" layoutX="465.0" layoutY="212.0" prefHeight="23.0" prefWidth="180.0" text="Degree:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="gpaLabel" layoutX="465.0" layoutY="235.0" prefHeight="23.0" prefWidth="180.0" text="GPA:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

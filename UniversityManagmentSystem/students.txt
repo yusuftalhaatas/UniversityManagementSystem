@@ -1,0 +1,9 @@
+20011002,Marie,Curie,Chemistry,3.5,4
+20011003,Isaac,Newton,Physics,3.8,2
+20011004,Rachel,Carson,Environmental Science,3.3,3
+20011005,Aziz,Sancar,Biochemistry,3.7,4
+20011006,Ada,Lovelace,Computer Science,3.9,3
+20011007,Albert,Einstein,Physics,3.6,2
+20011008,Grace,Hopper,Computer Science,3.2,4
+20011009,Nikola,Tesla,Electrical Engineering,3.7,3
+20011010,Marie,Lehn,Chemistry,3.4,2

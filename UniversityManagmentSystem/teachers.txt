@@ -1,0 +1,10 @@
+John,Doe,Computer Science
+Emma,Smith,Mathematics
+Michael,Johnson,Physics
+Emily,Anderson,Chemistry
+David,Williams,Biology
+Sophia,Brown,Environmental Science
+James,Taylor,Electrical Engineering
+Olivia,Miller,Geology
+Daniel,Wilson,Statistics
+
